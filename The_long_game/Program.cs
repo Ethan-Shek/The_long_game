@@ -16,6 +16,7 @@
             //Console.WriteLine(username);
             // this is step 2 keeping track of the user score which will start at 0 unless they have a file already
             int userScore = 0;
+            Console.WriteLine("Current Score: " + userScore);
             
             // checks if the user already exist
             if (File.Exists(userUnique))
